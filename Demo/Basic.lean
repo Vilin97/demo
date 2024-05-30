@@ -16,4 +16,7 @@ example (A : Set ℕ) : A ∩ B ⊆ A := by
 example : ∀ x y z n : ℕ, n > 2 ∧ x * y * z ≠ 0 → x ^ n + y ^ n ≠ z ^ n :=
   sorry
 
--- Google "Natural Number Game" if you are interested to learn more!
+-- If you are interested:
+--     Play "Natural Number Game"
+--     Join the Math AI seminar!
+--     Talk to me (vilin@uw.edu)!
