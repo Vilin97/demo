@@ -14,3 +14,5 @@ require mathlib from git
 @[default_target]
 lean_lib «Demo» where
   -- add any library configuration options here
+
+-- require LatexInLean from git "https://github.com/kcaze/LatexInLean.git"@"main"
