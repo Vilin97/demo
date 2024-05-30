@@ -1,6 +1,6 @@
--- import LatexInLean
 import Mathlib.Data.Set.Lattice
--- show_panel_widgets [latex]
+import LatexInLean
+show_panel_widgets [latex]
 
 example : 1+1=2 := by
   rfl
@@ -12,6 +12,8 @@ example (A : Set ℕ) : A ∩ B ⊆ A := by
   -- exact hypothesis.left
   sorry
 
-/-! $\forall x y z n \in \mathbb{N}, n > 2 \and xyz \neq 0 \implies x^n + y^n \neq z^n $ -/
+/-! $\forall x, y, z, n \in \mathbb{N}, n > 2$, and $xyz \neq 0 \implies x^n + y^n \neq z^n$ -/
 example : ∀ x y z n : ℕ, n > 2 ∧ x * y * z ≠ 0 → x ^ n + y ^ n ≠ z ^ n :=
   sorry
+
+-- Google "Natural Number Game" if you are interested to learn more!
