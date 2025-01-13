@@ -4,6 +4,7 @@ import Mathlib.Tactic
 #eval "Hello World"
 
 -- Tactic cheatsheet: https://github.com/madvorak/lean4-cheatsheet/blob/main/lean-tactics.pdf
+-- MiL textbook: https://github.com/leanprover-community/mathematics_in_lean
 
 -- tactics:
 -- `intro pq`
