@@ -5,6 +5,7 @@ import Mathlib.Tactic
 
 -- Tactic cheatsheet: https://github.com/madvorak/lean4-cheatsheet/blob/main/lean-tactics.pdf
 -- MiL textbook: https://github.com/leanprover-community/mathematics_in_lean
+-- talks about Lean + AI: https://researchseminars.org/talk/LeanTogether2025/35/, https://researchseminars.org/talk/LeanTogether2025/2/
 
 -- tactics:
 -- `intro pq`
